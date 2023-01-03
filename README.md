@@ -1,7 +1,7 @@
 # 100DaysofCode
 Codes of Day1 to Day100 of the 100 Days of Code Challenge.
-# Day1 :
-# Day2 : Tower of Hanoi
+# Day1 : Maximum Value of Every level of a Binary Tree
+# Day2 : Tower of Hanoi, Delete Node 
 # Day3
 # Day4
 # Day5
