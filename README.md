@@ -1,9 +1,13 @@
 # 100DaysofCode
 Codes of Day1 to Day100 of the 100 Days of Code Challenge.
-# Day1 : Maximum Value of Every level of a Binary Tree
-# Day2 : Tower of Hanoi, Delete Node 
-# Day3
+# Day1 : 
+Maximum Value of Every level of a Binary Tree, Sub array With Given Value
+# Day2 : 
+Tower of Hanoi, Delete Node, Maximum Number of Students to be Removed  
+# Day3 : 
+Delete Columns to Make Sorted, Maximum Profit by Choosing a Subset of Intervals, Maximum Traling Zeros in a Cornered Path, Single Valued Subtree
 # Day4
+Find The Longest String, 
 # Day5
 # Day6
 # Day7
