@@ -7,7 +7,7 @@ Tower of Hanoi, Delete Node, Maximum Number of Students to be Removed.
 # Day3 : 
 Delete Columns to Make Sorted, Maximum Profit by Choosing a Subset of Intervals, Maximum Traling Zeros in a Cornered Path, Single Valued Subtree.
 # Day4 :
-Find The Longest String, Minimum Number of Arraows to Burst Balloons.
+Find The Longest String, Minimum Number of Arrows to Burst Balloons.
 # Day5
 # Day6
 # Day7
