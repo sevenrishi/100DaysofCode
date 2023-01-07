@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+struct triangle
+{
+	int a;
+	int b;
+	int c;
+};
+
+typedef struct triangle triangle;
+double area_squared(triangle* tr) {
+    double p = (tr->a + tr->b + tr->c) / 2.0;
+    return p * (p - tr->a) * (p - tr->b) * (p - tr->c);
+}
+
+int cmp_t(triangle* tr1, triangle* tr2) {
+    double a1 = area_squared(tr1);
+    double a2 = area_squared(tr2);
+    return (a1 > a2) - (a1 < a2);
+}
+
+void sort_by_area(triangle* tr, int n) {
+    // insertion sort
+    for (int i = 1; i < n; i++) {
+        int j = i;
+        triangle pivot = tr[i];
+        while (j > 0 && cmp_t(&tr[j-1], &pivot) > 0) {
+            tr[j] = tr[j-1];
+            j--;
+        }
+        tr[j] = pivot;      
+    }
+}
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	triangle *tr = malloc(n * sizeof(triangle));
+	for (int i = 0; i < n; i++) {
+		scanf("%d%d%d", &tr[i].a, &tr[i].b, &tr[i].c);
+	}
+	sort_by_area(tr, n);
+	for (int i = 0; i < n; i++) {
+		printf("%d %d %d\n", tr[i].a, tr[i].b, tr[i].c);
+	}
+	return 0;
+}
