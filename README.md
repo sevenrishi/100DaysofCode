@@ -15,6 +15,7 @@ Arranging Triangles In Increasing Order, Array Reversal, Boxes Through a Tunnel,
 # Day7
 Absolute Difference Divisible By K, Max Points On A Line.
 # Day8
+Binary Tree Preorder Traversal, Last Modified Ball.
 # Day9
 # Day10
 # Day11
