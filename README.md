@@ -9,8 +9,11 @@ Delete Columns to Make Sorted, Maximum Profit by Choosing a Subset of Intervals,
 # Day4 :
 Find The Longest String, Minimum Number of Arrows to Burst Balloons.
 # Day5
-Maximum Ice Cream Bars, Shortest Prime Path
+Maximum Ice Cream Bars, Shortest Prime Path.
 # Day6
+Arranging_Triangles_in_Increasing_Order, Array_Reversal, Boxes_Through_a_Tunnel, Calculate_The_Nth_Term, Digit_Frequency, Dynamic_Array, Flattening_a_Linked_List, Gas_Station, Permutations_of_Strings, Post_Transition, Print_The_Maximum_Values_of_AND_OR_And_XOR_Operator, Print_The_Sum_of_Digits_of_a_Five_Digit_Integer, Print_The_Sum_of_The_Integers_in_The_Array, Printing_Patterns_Using_Loops, Printing_Tokens, Problem_Using_For_Loop, Problem_Using_If_Else_If_Else_Statement, Querying_The_Document, Sorting_Array_of_Strings, Structuring_The_Documents, Students_Marks_Sum, Variadic_Functions.
+
+
 # Day7
 # Day8
 # Day9
