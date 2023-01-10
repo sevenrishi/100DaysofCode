@@ -13,6 +13,7 @@ Maximum Ice Cream Bars, Shortest Prime Path.
 # Day6
 Arranging Triangles In Increasing Order, Array Reversal, Boxes Through a Tunnel, Calculate The Nth Term, Digit Frequency, Dynamic Array, Flattening A Linked List, Gas Station, Permutations Of Strings, Post Transition, Print The Maximum Values Of AND OR And XOR Operator, Print The Sum Of Digits Of A Five Digit Integer, Print The Sum Of The Integers In The Array, Printing Patterns Using Loops, Printing Tokens, Problem Using For Loop, Problem Using If Else If Else Statement, Querying The Document, Sorting Array Of Strings, Structuring The Documents, Students Marks Sum, Variadic Functions.
 # Day7
+Absolute Difference Divisible By K, Max Points On A Line.
 # Day8
 # Day9
 # Day10
