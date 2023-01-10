@@ -9,6 +9,7 @@ Delete Columns to Make Sorted, Maximum Profit by Choosing a Subset of Intervals,
 # Day4 :
 Find The Longest String, Minimum Number of Arrows to Burst Balloons.
 # Day5
+Maximum Ice Cream Bars, Shortest Prime Path
 # Day6
 # Day7
 # Day8
