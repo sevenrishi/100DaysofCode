@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int dfs(int prev,int curr,vector<vector<int>>& adj, vector<bool>& hasApple){
+        int time =0;
+        for(auto edge : adj[curr]){
+            if(prev != edge){
+                int subTime =dfs(curr,edge,adj,hasApple);
+                if(subTime >0 || hasApple[edge])
+                     time+=subTime+2;
+            }
+        }
+        return time;
+    }
+    int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
+        cout.tie(nullptr);
+        vector<vector<int>>adj(n);
+        for(auto edge: edges){
+            adj[edge[0]].push_back(edge[1]);
+            adj[edge[1]].push_back(edge[0]);
+        }
+        return dfs(-1,0,adj,hasApple);
+    }
+};
