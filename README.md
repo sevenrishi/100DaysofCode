@@ -23,6 +23,7 @@ Make Array Elements Unique, Minimum Time To Collect All Apples In A Tree.
 # Day11
 Minimize The Sum, Number of Nodes in The Sub-Tree With The Same Label.
 # Day12
+Longest Path With Different Adjacent Characters, Count Lucky Permutations.
 # Day13
 # Day14
 # Day15
