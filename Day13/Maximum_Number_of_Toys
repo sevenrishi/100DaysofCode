@@ -1,0 +1,114 @@
+//{ Driver Code Starts
+//Initial Template for C++
+#include <bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+//User function Template for C++
+
+const int N=1e6+5;
+int freq[N];
+class tree{
+public:
+    vector<long long>bit;
+    tree(){
+        bit=vector<long long>(N);
+    }
+    void update(int node,int x){
+        for(;node<N; node+=(node&(-node))){
+            bit[node]+=x;
+        }
+    }
+    long long get(int node){
+        long long ans=0;
+        for(;node>0;node-=(node&(-node))){
+            ans +=bit[node];
+        }
+        return ans;
+    }
+};
+tree obj1,obj2;
+class Solution{
+public:
+ 
+  vector<int> maximumToys(int N,vector<int> A,int Q,vector<vector<int>> Queries){
+      // code here
+      vector<int>ans;
+      for(int i=0;i<N;i++){
+          obj1.update(A[i],A[i]);
+          obj2.update(A[i],1);
+      }
+      for(int i=0;i<N;i++){
+          freq[A[i]]++;
+      }
+      for(auto i : Queries){
+          long long c=i[0];
+          for(int j=2;j<i.size();j++){
+              obj1.update(A[i[j]-1],-A[i[j]-1]);
+              obj2.update(A[i[j]-1],-1);
+          }
+          long long high=1e6;
+          long long low=1;
+          long long point=1e6;
+          
+          while(low<=high){
+              int mid=(low+high)/2;
+              if(obj1.get(mid)>=c){
+                  point = mid;
+                  high=mid-1;
+              }
+              else{
+                  low=mid+1;
+              }
+          }
+          long long res=obj2.get(point-1);
+          long long remaining=min((c-obj1.get(point-1))/point,(long long)freq[point]);
+          res+=remaining;
+          ans.push_back(res);
+          for(int j=2;j<i.size();j++){
+              obj1.update(A[i[j]-1],A[i[j]-1]);
+              obj2.update(A[i[j]-1],1);
+          }
+      }
+      for(int i=0;i<A.size();i++){
+          obj1.update(A[i],-A[i]);
+          obj2.update(A[i],-1);
+      }
+      
+      
+      return ans;
+  }
+};
+
+//{ Driver Code Starts.
+int main() {
+ int t=1;
+ cin>>t;
+ for(int i=1;i<=t;i++){
+    int N;
+    cin>>N;
+    vector<int>A(N);
+    for(auto &i:A){
+      cin>>i;
+    }
+    int Q;
+    cin>>Q;
+    vector<vector<int>> Queries(Q);
+    for(int i=0;i<Q;i++){
+      int x,y;
+      cin>>x>>y;
+      Queries[i].push_back(x);
+      Queries[i].push_back(y);
+      for(int j=0;j<Queries[i][1];j++){
+        cin>>x;
+        Queries[i].push_back(x);
+      }
+    }
+    Solution obj;
+    auto ans =obj.maximumToys(N,A,Q,Queries);
+    for(auto i:ans)
+      cout<<i<<" ";
+    cout<<endl;
+ }
+}
+// } Driver Code Ends
