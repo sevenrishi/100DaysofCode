@@ -25,6 +25,7 @@ Minimize The Sum, Number of Nodes in The Sub-Tree With The Same Label.
 # Day12
 Longest Path With Different Adjacent Characters, Count Lucky Permutations.
 # Day13
+Lexicographically Smallest Equivalent String, Maximum Number of Toys.
 # Day14
 # Day15
 # Day16
