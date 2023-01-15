@@ -27,6 +27,7 @@ Longest Path With Different Adjacent Characters, Count Lucky Permutations.
 # Day13
 Lexicographically Smallest Equivalent String, Maximum Number of Toys.
 # Day14
+Number of Good Paths, Count the Substring.
 # Day15
 # Day16
 # Day17
