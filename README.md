@@ -35,6 +35,7 @@ Find the maximum GCD of the siblings of a Binary Tree, Flip String to Monotone I
 # Day17
 Maximum Sum Circular Subarray, Find the first node of loop in linked list.
 # Day18
+Maximum Weight Node, 
 # Day19
 # Day20
 # Day21
