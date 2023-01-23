@@ -41,7 +41,7 @@ Maximum Weight Node,
 # Day20
 GCP Array, 
 # Day21
-Geeks And The String, The 
+Geeks And The String, Find The 
 # Day22
 # Day23
 # Day24
