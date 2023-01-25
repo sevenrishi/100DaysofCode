@@ -43,7 +43,7 @@ GCP Array,
 # Day21
 Geeks And The String, Find The Town Judge.
 # Day22
-Type It,
+Type It, Find Closest Node to Given Two Nodes.
 # Day23
 # Day24
 # Day25
