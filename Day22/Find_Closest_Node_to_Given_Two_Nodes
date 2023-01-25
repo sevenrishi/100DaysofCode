@@ -1,0 +1,26 @@
+class Solution {
+public:
+    void find_distance(vector<int>& edges,vector<int>& visited, vector<int>& distance, int node, int d){
+        if(node<0 || visited[node])
+            return;
+        distance[node]=d;
+        visited[node]=true;
+        find_distance(edges,visited,distance,edges[node],d+1);
+        visited[node]=false;
+    }
+    int closestMeetingNode(vector<int>& edges, int &node1, int &node2) {
+        int n=edges.size();
+        vector<int>visited(n),distance1(n,INT_MAX),distance2(n,INT_MAX);
+        find_distance(edges,visited,distance1,node1,0);
+        find_distance(edges,visited,distance2,node2,0);
+        int ans=INT_MAX,temp,index=-1;
+        for(int i=0;i<n;i++){
+            temp=max(distance1[i],distance2[i]);
+            if(temp<ans){
+                ans=temp;
+                index=i;
+            }
+        }
+        return index;
+    }
+};
