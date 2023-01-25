@@ -43,6 +43,7 @@ GCP Array,
 # Day21
 Geeks And The String, Find The Town Judge.
 # Day22
+Type It,
 # Day23
 # Day24
 # Day25
