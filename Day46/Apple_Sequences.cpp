@@ -1,3 +1,5 @@
 Solutions{
   Public:
+     int AppleSequences(){
+     }
 };
