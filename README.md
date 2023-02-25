@@ -1,4 +1,5 @@
-# 100DaysofCode
+<h1 align="center">100DaysofCode</h1>
+
 Codes of Day1 to Day100 of the 100 Days of Code Challenge.
 # Day1 : 
 Maximum Value of Every level of a Binary Tree, Sub array With Given Value.
