@@ -1,6 +1,18 @@
 <h1 align="center"><b>100DaysofCode</b></h1>
+<h3 align="center">Codes of Day1 to Day100 of the 100 Days of Code Challenge.</h3>
+<br>
+<p align="center">
+<a href="https://www.linkedin.com/in/saptarshimondalofficial/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="its_7rishi" height="30" width="30" /></a>
+<a href="https://twitter.com/its_7rishi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="its_7rishi" height="30" width="40" /></a>
+<a href="https://fb.com/me7rishi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="me7rishi" height="30" width="40" /></a>
+<a href="https://instagram.com/its_7rishi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="its_7rishi" height="30" width="40" /></a>
+<a href="https://discord.gg/its_7rishi#1768" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="its_7rishi#1768" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/its_7rishi" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="its_7rishi" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/saptarshimondal5" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="saptarshimondal5" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/its_7rishi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="its_7rishi" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/saptarshimbk7w" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="saptarshimbk7w" height="30" width="40" /></a>
+</p>
 
-Codes of Day1 to Day100 of the 100 Days of Code Challenge.
 # Day1 : 
 Maximum Value of Every level of a Binary Tree, Sub array With Given Value.
 # Day2 : 
